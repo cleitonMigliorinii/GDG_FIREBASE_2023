@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018541087766",
+    "project_id": "gdg-apresentacao-262c3",
+    "storage_bucket": "gdg-apresentacao-262c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018541087766:android:ae83ae75b4ae52a8eb2937",
+        "android_client_info": {
+          "package_name": "br.utfpr.gdg_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCjOinbxBoeijANkOm1vvE0fHEJQkU_To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018541087766:android:fd989dcb81cd16a0eb2937",
+        "android_client_info": {
+          "package_name": "com.utfpr.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCjOinbxBoeijANkOm1vvE0fHEJQkU_To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
