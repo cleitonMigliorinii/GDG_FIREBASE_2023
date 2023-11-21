@@ -6,26 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/meuBotao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="159dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="268dp"
-        android:text="Button"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="164dp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="Curtir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botaoErro"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="164dp"
+        android:background="#00897B"
+        android:backgroundTint="#B12E2E"
+        android:foregroundTint="#00897B"
+        android:text="Descurtir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#00897B" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="390dp"
+        android:layout_height="290dp"
+        android:scaleType="fitCenter"
+        app:circularflow_angles="4"
+        app:layout_constraintBottom_toTopOf="@+id/meuBotao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
